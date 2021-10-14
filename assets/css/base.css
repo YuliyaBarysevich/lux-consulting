@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+  -moz-animation: none !important;
+  -webkit-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: #121212;
+  border-bottom: 2px solid #BFA095;
+  padding: 3px 7px;
+}
