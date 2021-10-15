@@ -14,8 +14,9 @@ header {
 }
 
 nav ul{
+  
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-right: 20px;
 }
 
@@ -27,7 +28,7 @@ nav ul li {
 }
 
 p, ul li {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 
@@ -176,6 +177,11 @@ h2 {
 .contact-container div ul li{
   padding: 8px 0;
   display: flex;
+  justify-content: space-between;
+}
+
+.contact-container div ul li div {
+  width: 50%;
 }
 
 
@@ -274,6 +280,11 @@ h2 {
   color: #fff;
 }
 
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
 /* Career */
 
 #career {
@@ -301,6 +312,8 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Narrow  */
 
 
 /* Narrower */
@@ -333,6 +346,11 @@ footer p {
 
   .col-form-label {
     margin: 0 0 5px 0;
+  }
+
+  .contact-container div ul li {
+    justify-content: start;
+
   }
   
 }
