@@ -63,7 +63,7 @@ h2 {
 #about, #founder-info {
   display: flex;
   background-color: rgba(242,242,242,0.4);
-  margin: 40px 0;
+  /* margin: 40px 0; */
 }
 
 #about div, #founder-info div {
@@ -72,6 +72,7 @@ h2 {
 
 .placeholder-img {
   width: 100%;
+  height: 100%;
 }
 
 .about, .founder {
@@ -141,9 +142,12 @@ h2 {
 
 
 .services-1 ul li, .services-2 ul li {
-  list-style-type: disc;
+  display: inline-block;
+  width: 45%;
+  list-style-type: none;
   list-style-position: inside;
   padding: 10px 0px;
+  text-align: center;
 }
 
 .contact-container {
